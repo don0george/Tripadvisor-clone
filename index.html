@@ -4,435 +4,678 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- title -->
-    <title>Travel Advisor Clone</title>
-
-    <!-- icon -->
-    <link rel="icon" href="images/favicon.png">
-
-    <!-- stylesheet -->
+    <title>Tripadvicer-Clone</title>
     <link rel="stylesheet" href="style.css">
-
-    <!-- font -->
+    <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 
-    <!-- fontawsome -->
+    <!-- font awsome  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="icon" href="./img/tripadvicer-logo.png">
+
+
 
 </head>
 
 <body>
-    <!-- header -->
-    <div class="header">
-        <img src="./images/header.jpg" alt="header img">
-        <div class="header__section1">
-            <h2>3 perfect days in munich</h2>
-            <p>Here how to make the most of three days in munich,
-                From the best beer shop to the eye-catching place</p>
-        </div>
-        <div class="header__section2">
-            <submit type="button"><b>Download Now</b></submit>
-        </div>
-    </div>
+    <div class="container">
+        <!-- navbar -->
+        <nav class="navbar">
+            <div class="navbar__icon">
+                <img src="./img/burger-bar (1).png" alt="">
 
-    <!-- navbar -->
-    <nav class="nav">
-        <div class="nav__s1">
-            <div class="nav__s1-logo">
-                <img src="./images/favicon.png" alt="logo">
-                <h1><b>Tripadvisor</b></h1>
             </div>
-        </div>
-        <div class="nav__s2">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <input placeholder="search">
-        </div>
-        <div class="nav__s3">
-            <div class="nav__s3-box1">
-                <h5>Discover</h5>
+            <div class="navbar__s1">
+                <img src="./img/tripadvicer-logo.png" alt="">
+                <h1 class="navbar__s1__title">Tripadvisor</h1>
             </div>
-            <div class="nav__s3-box2">
-                <h5>Trip</h5>
-            </div>
-            <div class="nav__s3-box3">
-                <h5>Review</h5>
-            </div>
-        </div>
-        <div class="nav__s4">
-            <div class="nav__s4-box1">
-                <i class="fa-solid fa-globe"></i>
-            </div>
-            <div class="nav__s4-box2">
-                <h4>|INR</h4>
-            </div>
-        </div>
-        <div class="nav__s5">
-            <img src="./images/profile.jpg" alt="profile">
-        </div>
-    </nav>
-    <div class="fixed">
-        <!-- Menu Bar -->
-        <div class="menu">
-            <div class="menu1">
-                <p><i class="fa-solid fa-map-location-dot"></i> Germany</p>
-            </div>
-            <div class="menu2">
-                <p>Hotels</p>
-            </div>
-            <div class="menu3">
-                <p>Things to Do</p>
-            </div>
-            <div class="menu4">
-                <p>Restarunts</p>
-            </div>
-            <div class="menu5">
-                <p>Flights</p>
-            </div>
-            <div class="menu6">
-                <p>Holiday Homes</p>
-            </div>
-            <div class="menu7">
-                <p>Forums</p>
-            </div>
-        </div>
-        <!-- other place -->
-        <div class="others">
-            <div class="others__s1">
-                <p>Europe > Germany > Places to visit in Germany</p>
-                <div class="others__s2">
-                </div>
-                <span>Top Things to Do in Germany</span>
-            </div>
-        </div>
-    </div>
-    <!-- Hero main -->
-    <div class="hero">
-        <div class="hero__img">
-            <img src="./images/germany.jpg" alt="germany">
-        </div>
-        <div class="hero__letters">
-            <h1>Places to Visit in Germany</h1>
-            <p>For personalised recommendations, try our AI trip-planning product.</p>
-            <div class="hero__location">
-                <div class="hero__location1">
-                    <p><i class="fa-solid fa-location-dot"></i> Build your trip</p>
-                </div>
-                <div class="hero__location2">
-                    <p>powered by AI<span><b>BETA</b></span>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="explo">
-        <div class="explo__heading">
-            <!-- hero explorer -->
-            <div class="hero__explo">
-                <div class="hero__explore1">
-                    <h1>Explore popular experiences</h1>
-                    <p>See what other travellers like to do,
-                        based on ratings and number of bookings.</p>
-                    <div class="hero__explore2">
-                        <submit type="button"><b>See All</b></submit>
+
+            <ul class="navbar__s2">
+                <li>Discover</li>
+                <li>Trips</li>
+                <li>Review</li>
+                <li>More</li>
+
+            </ul>
+            <div class="navbar__s3">
+                <div class="navbar__s3__boxs">
+                    <div class="navbar__s3__box1">
+                        <div class="navbar__s3__box1__img">
+                            <img src="./img/earth-grid.png" alt="">
+                        </div>
+                        <p>INR</p>
+
                     </div>
-                </div>
-            </div>
-            <!-- Explore Places -->
-            <div class="explore-places">
-                <div>
-                    <p1><i class="fa-brands fa-fort-awesome"></i>Historical Tours (1,304)</p1>
-                </div>
-                <div>
-                    <p2><i class="fa-regular fa-bookmark"></i>Fun & Games (173)</p2>
-                </div>
-                <div>
-                    <p3><i class="fa-brands fa-fort-awesome"></i>Casel(847)</p3>
-                </div>
-                <div>
-                    <p4><i class="fa-solid fa-suitcase"></i>Day Trips (368)</p4>
-                </div>
-                <div>
-                    <p5><i class="fa-solid fa-house-chimney"></i>City Tours (736)</p5>
-                </div>
-                <div>
-                    <p6><i class="fa-solid fa-gamepad"></i>Theme Parks (116)</p6>
-                </div>
-                <div>
-                    <p7><i class="fa-solid fa-person-walking"></i>Walking Tours (1,328)</p7>
-                </div>
-                <div>
-                    <p8><i class="fa-solid fa-motorcycle"></i>Mountain Bike Tours (101)</p8>
-                </div>
-                <div>
-                    <p9><i class="fa-solid fa-water-ladder"></i>Water Parks (130)</p9>
-                </div>
-                <div>
-                    <p10><i class="fa-solid fa-sailboat"></i>Day Cruises (41)</p10>
-                </div>
-                <div>
-                    <p11><i class="fa-regular fa-gem"></i>Private and Luxury (437)</p11>
-                </div>
-                <div>
-                    <p12><i class="fa-regular fa-flag"></i>Points of Interest & Landmarks (4,905)</p12>
-                </div>
-                <div>
-                    <p14><i class="fa-solid fa-wine-glass"></i>Beer & Brewery Tours (81)</p14>
-                </div>
-                <div>
-                    <p13><i class="fa-solid fa-snowman"></i>Cultural Tours (1,016)</p13>
-                </div>
-                <div>
-                    <p16><i class="fa-brands fa-fort-awesome"></i>Historic Sites (2,889)</p16>
-                </div>
-                <div>
-                    <p15><i class="fa-regular fa-compass"></i>Hiking Tours (69)</p15>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Popular cities -->
-    <div class="popular-cities">
-        <div class="popular-cities__s1">
-            <h2>Popular Cities in Germany</h2>
-        </div>
-        <div class="popular-cities__image">
-            <div class="popular-cities__s2">
-                <div class="fa-brands1">
-                    <i class="fa-brands fa-gratipay"></i>
-                </div>
-                <img src="./images/Berlin.jpg" alt="Berlin img"></img>
-                <h3>Berlin</h3>
-                <p>Germany, Europe</p>
-            </div>
-            <div class="popular-cities__s3">
-                <div class="fa-brands1">
-                    <i class="fa-brands fa-gratipay"></i>
-                </div>
-                <img src="./images/Munich.jpg" alt="munich img"></img>
-                <h3>Munich</h3>
-                <p>Bavaria, Germany</p>
-            </div>
-            <div class="popular-cities__s4">
-                <div class="fa-brands1">
-                    <i class="fa-brands fa-gratipay"></i>
-                </div>
-                <img src="./images/Frankfurt.jpg" alt="feankfurt img"></img>
-                <h3>Feankfurt</h3>
-                <p>Hesse, Germany</p>
-            </div>
-            <div class="popular-cities__s5">
-                <div class="fa-brands1">
-                    <i class="fa-brands fa-gratipay"></i>
-                </div>
-                <img src="./images/Hamburg.jpg" alt="hamburg img"></img>
-                <h3>Hamburg</h3>
-                <p>Germany, Europe</p>
-            </div>
-        </div>
-    </div>
-    <!-- Attraction Container -->
-    <div class="Container">
-        <div class="Container__s1">
-            <h1>Top Attractions in Germany</h1>
-            <p>These rankings are informed by traveller reviews—we
-                consider the quality, quantity, recency, consistency
-                of reviews, and the number of page views over time.</p>
-            <div class="Container__s2">
-                <submit type="button"><b>See All</b></submit>
-            </div>
-        </div>
-    </div>
-    <!-- container image -->
-    <div class="Container__image">
-        <div class="Container__image1">
-            <img src="./images/ac1.jpg" alt="cm-1">
-            <div class="Container__image1-1">
-                <h3>1. Miniatur Wunderland</h3>
-            </div>
-            <div class="Container__image1-2">
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <p>23,428</p>
-            </div>
-            <div class="Container__image1-3">
-                <p>Speciality Museums</p>
-            </div>
-            <div class="Container__image1-4">
-                <p>Miniatur Wunderland is the world’s largest model train exhibit, and still growing. See trains running
-                    through recreations of Hamburg and the coast, Austria, the Grand Canyon and Scandinavia.</p>
-            </div>
-            <div class="Container__image1-5">
-                <p>See ways to experience (6)</p>
-            </div>
-        </div>
-
-        <div class="Container__image2">
-            <img src="./images/cm2.jpg" alt="cm-1">
-            <div class="Container__image2-1">
-                <h3>2. Museum</h3>
-            </div>
-            <div class="Container__image2-2">
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <p>23,428</p>
-            </div>
-            <div class="Container__image2-3">
-                <p>Speciality Museums</p>
-            </div>
-            <div class="Container__image2-4">
-                <p>Miniatur Wunderland is the world’s largest model train exhibit, and still growing. See trains running
-                    through recreations of Hamburg and the coast, Austria, the Grand Canyon and Scandinavia.</p>
-            </div>
-            <div class="Container__image1-5">
-                <p>See ways to experience (6)</p>
-            </div>
-        </div>
-
-        <div class="Container__image3">
-            <img src="./images/cm3.jpg" alt="cm-1">
-            <div class="Container__image3-1">
-                <h3>3. Wunderland</h3>
-            </div>
-            <div class="Container__image3-2">
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <p>23,428</p>
-            </div>
-            <div class="Container__image3-3">
-                <p>Speciality Museums</p>
-            </div>
-            <div class="Container__image3-4">
-                <p>Miniatur Wunderland is the world’s largest model train exhibit, and still growing. See trains running
-                    through recreations of Hamburg and the coast, Austria, the Grand Canyon and Scandinavia.</p>
-            </div>
-            <div class="Container__image3-5">
-                <p>See ways to experience (6)</p>
-            </div>
-        </div>
-        <div class="see-all">
-            <submit type="button"><b>See All</b></submit>
-        </div>
-    </div>
-    <!-- feed back -->
-    <div class="feedback">
-        <div class="feedback__head">
-            <h3>What travellers are saying</h3>
-        </div>
-        <!-- feed back persons -->
-        <div class="feedback__persons">
-            <div class="feedback__p1">
-                <div class="feedback__p1__s1">
-                    <img src="./images/fp1.jpg" alt="fp1">
-                    <div class="feedback__p1__s2">
-                        <h5>Anders E</h5>
-                        <p>1 contribution</p>
-                        <div class="Container__image__footer">
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
-                            <div class="circle"></div>
+                    <div class="navbar__s3__box2">
+                        <button class="navbar__s3__signin-btn">
+                            Sign in
+                        </button>
+                        <div class="navbar__account">
+                            <img src="./img/account.png" alt="">
                         </div>
                     </div>
-                    <div class="feed">
-                        <p>Every time I visit Hansestadt Hamburg, I try to visit Miniatur Wunderland. There’s always
-                            something new to see and learn. As an oceanographer I’m amazed how realistically the
-                            agitated
-                            sea water can be mimicked just to mention one of a multitude of carefully modeled features.
-                        </p>
+                </div>
+            </div>
+        </nav>
+
+        <!-- section-2 -->
+        <div class="section-2">
+
+            <div class="section-2__title">
+                <h1>Where to?</h1>
+            </div>
+            <div class="section-2__btn-group">
+                <div class="btn ">
+                    <button class="btn-1"><img src="./img/search-interface-symbol.png" alt="">Search All</button>
+                </div>
+                <div class="btn">
+                    <button class=""><img src="./img/bed.png" alt="">Hotels</button>
+                </div>
+                <div class="btn btn-s2">
+                    <button class=""><img src="./img/credit-card.png" alt="">Thinks to Do</button>
+                </div>
+                <div class="btn btn-s2">
+                    <button class=""><img src="./img/restaurant.png" alt=""> Restaurants</button>
+                </div>
+                <div class="btn btn-s2">
+                    <button class=""><img src="./img/house-blank.png" alt=""> Holiday Homes</button>
+                </div>
+            </div>
+
+            <div class="section-2__search-input">
+                <input type="text" placeholder="Places to go, Thinks to do, hotels...">
+                <div class="search-2__btn">
+                    <button type="submit">Search</button>
+                </div>
+                <div class="search-2__icon">
+                    <img src="./img/magnifying-glass.png" alt="" srcset="">
+                </div>
+                <div class="input-boder">
+                    <div class="boder"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- section-3 -->
+        <div class="section-3">
+
+            <div class="section-3__box">
+                <div class="section-3__box-1">
+                    <div class="section-3__sponcer">
+                        <small class="div">Powered by AI </small>
+                        <button class="section-3__sponcer__btn" type="submit">BETA</button>
+                        <h1>Build a trip in minutes</h1>
+                        <p>Get a personalised itinerary just for you, guided by traveller tips and reviews.</p>
+                        <button class="section-3__sponcer__btn-2" type="submit">Start a trip with Ai</button>
                     </div>
 
                 </div>
+                <div class="section-3__box-2">
+                    <img src="./img/mobile.png" alt="" srcset="">
+                </div>
+
             </div>
-            <div class="feedback__p2">
-                <div class="feedback__p2__s1">
-                    <img src="./images/profile.jpg" alt="fp1">
-                    <div class="feedback__p2__s2">
-                        <h5>Pinkapple2014</h5>
-                        <p>1 contribution</p>
+        </div>
+
+        <!-- section-4 -->
+        <div class="section-4">
+            <div class="section-4__title">
+                <h2>Stay somewhere award-winning</h2>
+            </div>
+            <div class="section-4__para">
+                2024’s Travellers’ Choice Awards Best of the Best Hotels
+            </div>
+            <div class="section-4__image-group">
+                <div class="section-4__image-group__image">
+                    <div class="about-image">All-Inclusive Hotel </div>
+                    <img src="./img/sec-4-1.jpg" alt="">
+                </div>
+                <div class="section-4__image-group__image">
+                    <div class="about-image"> Family-Friendly Hotels </div>
+                    <img src="./img/sec-4-2.jpg" alt="">
+
+                </div>
+                <div class="section-4__image-group__image">
+                    <div class="about-image"> Luxury Hotel</div>
+                    <img src="./img/sec-4-3.jpg" alt="">
+                </div>
+                <div class="section-4__image-group__image">
+                    <div class="about-image">
+                        </p>Pet-Friendly Hotel </div>
+                    <img src="./img/sec-4-4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- section-5 -->
+        <div class="section-5">
+            <div class="section-5__title">
+                <h2>You might like these</h2>
+            </div>
+            <div class="section-5__para">
+                <p>More things to do in Chennai (Madras)</p>
+            </div>
+            <div class="section-5__image-group">
+                <div class="section-5__image-group__image">
+                    <img src="./img//sec-5-1.jpg" alt="" srcset=""><i class="fa-solid fa-heart Heart-icon "></i>
+                    <div class="details">
+                        <div class="datails__about">
+                            Mahabalipuram & Kanchipuram in a day from Chennai by private car with guide
+                        </div>
+                        <div class="details__rating">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+
+                        </div>
+                        <div class="details__price">
+                            from ₹7,093 per adult
+                        </div>
                     </div>
-                    <div class="feed1">
-                        <p>Great way to see the skyline of Berlin in a really unique building - and it’s free! Remember
-                            to book in advance and take your passport. Only drawback is that it’s really hard to find
-                            your way in at the moment because of the closures around the Reichstag due to the Euro
-                            football competition. The signs point you to a building site!.</p>
+                </div>
+                <div class="section-5__image-group__image">
+                    <img src="./img//sec-5-2.jpg" alt="" srcset="">
+                    <i class="fa-solid fa-heart Heart-icon "></i>
+                    <div class="details">
+                        <div class="datails__about">
+                            Chennai day trip to Kanchipuram & Mahabalipuram
+                        </div>
+                        <div class="details__rating">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+
+                        </div>
+                        <div class="details__price">
+                            from ₹5000 per adult
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="section-5__image-group__image">
+                    <img src="./img//sec-5-3.jpg" alt="" srcset="">
+                    <i class="fa-solid fa-heart Heart-icon "></i>
+                    <div class="details">
+                        <div class="datails__about">
+                            Mahabalipuram & Kanchipuram in a day from Chennai b y priate...
+                        </div>
+                        <div class="details__rating">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+
+                        </div>
+                        <div class="details__price">
+                            from ₹4500 per adult
+                        </div>
+                    </div>
+                </div>
+                <div class="section-5__image-group__image">
+                    <img src="./img//sec-5-4.jpg" alt="" srcset="">
+                    <i class="fa-solid fa-heart Heart-icon "></i>
+                    <div class="details">
+                        <div class="datails__about">
+                            MPrivate Chennai city tour for an immersive cultural experience
+                        </div>
+                        <div class="details__rating">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                        </div>
+                        <div class="details__price">
+                            from ₹3000 per adult
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- section-6 -->
+        <div class="section-5">
+            <div class="section-5__title">
+                <h2>Ways to tour Chennai (Madras)</h2>
+            </div>
+            <div class="section-5__para">
+                <p>Book these experiences for a close-up look at Chennai (Madras).</p>
+            </div>
+            <div class="section-5__image-group">
+                <div class="section-5__image-group__image">
+                    <img src="./img//sec-6-1.jpg" alt="" srcset="">
+                    <i class="fa-solid fa-heart Heart-icon "></i>
+                    <div class="details">
+                        <div class="datails__about">
+                            Kanchipuram Day Trip
+                        </div>
+                        <div class="details__rating">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                        </div>
+                        <div class="details__price">
+                            from ₹10,000 per adult
+                        </div>
+                    </div>
+                </div>
+                <div class="section-5__image-group__image">
+                    <img src="./img//sec-6-2.jpg" alt="" srcset="">
+                    <i class="fa-solid fa-heart Heart-icon "></i>
+                    <div class="details">
+                        <div class="datails__about">
+                            Auroville and Pondicherry Tour from Chennai
+                        </div>
+                        <div class="details__rating">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                        </div>
+                        <div class="details__price">
+                            from ₹12,000 per adult
+                        </div>
+                    </div>
+                </div>
+                <div class="section-5__image-group__image">
+                    <img src="./img//sec-6-3.jpg" alt="" srcset="">
+                    <i class="fa-solid fa-heart Heart-icon "></i>
+                    <div class="details">
+                        <div class="datails__about">
+                            Private 6 days Exotic Tamilnadu Tour from Chennai
+                        </div>
+                        <div class="details__rating">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                        </div>
+                        <div class="details__price">
+                            from ₹5500 per adult
+                        </div>
+                    </div>
+                </div>
+                <div class="section-5__image-group__image">
+                    <img src="./img//sec-6-4.jpg" alt="" srcset="">
+                    <i class="fa-solid fa-heart Heart-icon "></i>
+                    <div class="details">
+                        <div class="datails__about">
+                            Chennai day trip to Kanchipuram & Mahabalipuram
+                        </div>
+                        <div class="details__rating">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                        </div>
+                        <div class="details__price">
+                            from ₹6666 per adult
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section-7 -->
+        <div class="section-5">
+            <div class="section-5__title">
+                <h2>Thrilling outdoor adventures</h2>
+            </div>
+            <div class="section-5__para">
+                <p>Day trips, hikes, whitewater rafting and more</p>
+            </div>
+            <div class="section-5__image-group">
+                <div class="section-5__image-group__image">
+                    <img src="./img//sec-7-1.jpg" alt="" srcset="">
+                    <i class="fa-solid fa-heart Heart-icon "></i>
+                    <div class="details">
+                        <div class="datails__about">
+                            Mahabalipuram & Kanchipuram in a day from Chennai b y priate...
+                        </div>
+                        <div class="details__rating">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                        </div>
+                        <div class="details__price">
+                            from ₹11,000 per adult
+                        </div>
+                    </div>
+                </div>
+                <div class="section-5__image-group__image">
+                    <img src="./img//sec-7-2.jpg" alt="" srcset="">
+                    <i class="fa-solid fa-heart Heart-icon "></i>
+                    <div class="details">
+                        <div class="datails__about">
+                            Mahabalipuram & Kanchipuram in a day from Chennai b y priate...
+                        </div>
+                        <div class="details__rating">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                        </div>
+                        <div class="details__price">
+                            from ₹9000 per adult
+                        </div>
+                    </div>
+                </div>
+                <div class="section-5__image-group__image">
+                    <img src="./img//sec-7-3.jpg" alt="" srcset="">
+                    <i class="fa-solid fa-heart Heart-icon "></i>
+                    <div class="details">
+                        <div class="datails__about">
+                            Mahabalipuram & Kanchipuram in a day from Chennai b y priate...
+                        </div>
+                        <div class="details__rating">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                        </div>
+                        <div class="details__price">
+                            from 13,000 per adult
+                        </div>
+                    </div>
+                </div>
+                <div class="section-5__image-group__image">
+                    <img src="./img//sec-7-4.jpg" alt="" srcset="">
+                    <i class="fa-solid fa-heart Heart-icon "></i>
+                    <div class="details">
+                        <div class="datails__about">
+                            Mahabalipuram & Kanchipuram in a day from Chennai b y priate...
+                        </div>
+                        <div class="details__rating">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                            <img class="star" src="./img/star.png" alt="">
+                        </div>
+                        <div class="details__price">
+                            from 10,000 per adult
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- section-8  -->
+        <div class="section-8">
+            <div class="section-8__image"><img src="./img/sec-8-1.jpg" alt=""></div>
+            <div class="section-8__box">
+                <h3>See Something You love? Click the heart to save it</h3>
+                <p>And see all your saved travel ideason a map</p>
+            </div>
+            <div class="section-8__btn">
+                <button type="submit">Get Started</button>
+            </div>
+        </div>
+
+        <!-- section-9  -->
+        <div class="section-9">
+            <div class="section-9__s1">
+                <div class="section-9__title">
+                    <h2>More to explore</h2>
+                </div>
+                <div class="section-9__images">
+                    <div class="section-9__images__img">
+                        <div>
+                            <img src="./img//sec-9-1.jpg" alt="">
+                            <i class="fa-solid fa-heart Heart-icon "></i>
+                        </div>
+                        <div class="section-9__details">
+                            <p>6 incredible places to visit near Phuket</p>
+                        </div>
+                    </div>
+                    <div class="section-9__images__img">
+                        <div>
+                            <img src="./img//sec-9-2.jpg" alt="">
+                            <i class="fa-solid fa-heart Heart-icon "></i>
+                        </div>
+                        <div class="section-9__details">
+                            <p>17 cool stays by the water for a once-in-a-lifetime trip</p>
+                        </div>
+                    </div>
+                    <div class="section-9__images__img">
+                        <img src="./img//sec-9-3.jpg" alt="">
+                        <i class="fa-solid fa-heart Heart-icon "></i>
+                        <div class="section-9__details">
+                            <p>3 perfect days in Osaka </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- section-10  -->
+        <div class="section-10">
+            <div class="section-10__title">
+                <h2>Top destinations for your next holiday</h2>
+            </div>
+            <div class="section-10__para">
+                Here's where your fellow travellers are headed
+            </div>
+            <div class="section-10__images">
+                <div class="section-10__images__img">
+                    <div class="about-image">
+                        Ubud, Indonesia </div>
+                    <img src="./img/section-10-1.jpg" alt="">
+                    <i class="fa-solid fa-heart Heart-icon "></i>
+                </div>
+                <div class="section-10__images__img">
+                    <div class="about-image">
+                        Pattaya, Thailand </div>
+                    <img src="./img/section-10-2.jpg" alt="">
+                    <i class="fa-solid fa-heart Heart-icon "></i>
+                </div>
+                <div class="section-10__images__img">
+                    <div class="about-image">
+                        Dubai, United Arab Emirates </div>
+                    <img src="./img/section-10-3.jpg" alt="">
+                    <i class="fa-solid fa-heart Heart-icon "></i>
+                </div>
+                <div class="section-10__images__img">
+                    <div class="about-image">
+                        Singapore, Singapore </div>
+                    <img src="./img/section-10-4.jpg" alt="">
+                    <i class="fa-solid fa-heart Heart-icon "></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- section-11  -->
+        <div class="section-11">
+            <div class="section-11__s1"><img src="./img/section-11-1.jpg" alt="" srcset=""></div>
+            <div class="section-11__s2">
+                <div class="section-11__s2__sponser">
+                    <img src="./img/tripadvicer-logo.png" alt="" srcset="">
+
+                    Sponsored by <span>Wanderlab</span>
+
+
+                </div>
+                <div class="section-11__s2__title">
+                    <h1>Watch The Wanderer</h1>
+                </div>
+                <div class="section-11__s2__para">Tripadvisor’s award-winning travel series, now streaming on Amazon
+                    Prime Video</div>
+                <div class="section-11__s2__btn"><button type="submit">Learn more</button></div>
+            </div>
+        </div>
+
+        <!-- section-12 -->
+
+        <div class="section-12">
+            <div class="section-12__title">
+                <h2> Home Rentals Near You</h2>
+            </div>
+            <div class="section-12__s1">
+                <div class="section-12__s1__box-1">
+                    <p>We think you'd enjoy these homes for a quick trip out of town.</p>
+
+                </div>
+                <div class="section-12__s1__box-2">
+                    <div class="section-12__s1__box-2__box">
+
+                        <img src="./img/sec-12-1.jpg" alt="">
+                        <i class="fa-solid fa-heart Heart-icon "></i>
+                        <p class="section-12__s1__box-2__box__place">Rentals in Tiruvannamalai</p>
+                        <p class="vacancy">16 rentals</p>
+                    </div>
+                    <div class="section-12__s1__box-2__box">
+
+                        <img src="./img/sec-12-2.jpg" alt="">
+                        <i class="fa-solid fa-heart Heart-icon "></i>
+                        <p class="section-12__s1__box-2__box__place">Rentals in Hosur</p>
+                        <p class="vacancy">16 rentals</p>
+                    </div>
+                    <div class="section-12__s1__box-2__box">
+
+                        <img src="./img/sec-12-3.jpg" alt="">
+                        <i class="fa-solid fa-heart Heart-icon "></i>
+                        <p class="section-12__s1__box-2__box__place">Rentals in Vellore</p>
+                        <p class="vacancy">4 rentals</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- .section-13  -->
+        <footer class="section-13">
+            <div class="section-13__box-1">
+                <div class="section-13__s1">
+                    <div class="section-13__box-1">
+                        <ul class="section-13__ul">
+                            <li class="footer__header">About Tripadvisor</li>
+                            <li> About Us</li>
+                            <li> Press</li>
+                            <li>About Tripadvisor</li>
+                            <li> Resources and Policies</li>
+                            <li>Careers</li>
+                            <li>Trust & Safety</li>
+                            <li> Contact us</li>
+                            <li> Accessibility Statement</li>
+                        </ul>
+                    </div>
+                    <div class="section-13__box-22">
+                        <ul class="section-13__ul">
+                            <li class="footer__header"> Explore</li>
+                            <li> Write a review</li>
+                            <li> Add a Place</li>
+                            <li> Join</li>
+                            <li> Travellers' Choice</li>
+                            <li>GreenLeaders</li>
+                            <li>T Help Centre</li>
+                            <li> Contact us</li>
+                            <li> Travel Articles</li>
+                        </ul>
+                    </div>
+                    <div class="section-13__box-3">
+                        <ul class="section-13__ul">
+                            <li class="footer__header"> Do Business With Us</li>
+                            <li> Owners & DMO/CVB</li>
+                            <li> Business Advantage</li>
+                            <li>Sponsored Placements</li>
+                            <li>Access our Content API</li>
+                            <li>Get The App</li>
+                            <li>Trust & Safety</li>
+                            <li> iPhone App</li>
+                            <li> Android App </li>
+                        </ul>
                     </div>
 
                 </div>
+                <div class="section-13__s2">
+                    <ul class="section-13__ul">
+                        <li class="footer__header">Tripadvisor Sites</li>
+                        <li>Book tours and attraction tickets on Viator</li>
+                    </ul>
+                </div>
+                <div class="section-13__s3">
+                    <ul>
+                        <li>+ About tripadvicer</li>
+                        <li>+ Explore</li>
+                        <li>+ Do Business With Us</li>
+                        <li>+ Get The App</li>
+                        <li>+ Tripadvisor Sites</li>
+                    </ul>
+                </div>
             </div>
-            <div class="feedback__p3">
-                <div class="feedback__p3__s1">
-                    <img src="./images/f2.jpg   " alt="fp1">
-                    <div class="feedback__p3__s2">
-                        <h5>Chloe Thomas</h5>
-                        <p>1 contribution</p>
+            <div class="section-13__box-2">
+                <div class="section-13__box-2__s1">
+                    <div class="section-13__box-2__s1_box-1">
+                        <div class="section-13__box-2__s1_box-1__s1"><img src="./img/tripadvicer-logo.png" alt=""></div>
+                        <div class="section-13__box-2__s1_box-1__s2">
+                            <div class="section-13__box-2__s1_box-1__s2_box-1">
+                                &copy; 2024 Tripadvisor LLC All rights reserved.
+                            </div>
+                            <div class="section-13__box-2__s1_box-1__s2_box-2">
+                                <ul>
+                                    <li>Terms of Use</li>
+                                    <li>Privacy and Cookies Statement
+                                    </li>
+                                    <li> Cookie consent</li>
+                                    <li>Site Map</li>
+                                    <li>How the site works</li>
+                                    <li>Contact us</li>
+                                </ul>
+                                <p></p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="feed2">
-                        <p>Great way to see the skyline of Berlin in a really unique building - and it’s free! Remember
-                            to book in advance and take your passport. Only drawback is that it’s really hard to find
-                            your way in at the moment because of the closures around the Reichstag due to the Euro
-                            football competition. The signs point you to a building site!.</p>
+                    <div class="section-13__box-2__s1_box-1">
+                        <p>This is the version of our website addressed to speakers of English in India. If you are a
+                            resident of another country or region, please select the appropriate version of Tripadvisor
+                            for your country or region in the drop-down menu. more</p>
+                    </div>
+                </div>
+                <div class="section-13__box-2__s2">
+                    <div class="section-13__box-2__s2__box">
+                        <div class="option-1">
+                            <select name="" id="">
+                                <option value="INR" selected>₹INR</option>
+                                <option value="INR">A$ AUD</option>
+                                <option value="INR">JP¥ JPY</option>
+                            </select>
+                        </div>
+                        <div class="option-1">
+                            <select name="" id="">
+                                <option value="INR" selected>India</option>
+                                <option value="INR">America</option>
+                                <option value="INR">Australia</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="section-13__box-2__s2__box-2">
+                        <img src="./img/facebook.png" alt="">
+                        <img src="./img/twitter.png" alt="">
+                        <img src="./img/pintrest.png" alt="">
+                        <img src="./img/instagram.png" alt="">
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- footer head -->
-        <div class="foot-header">
-            <img src="./images/footer.jpg" alt="header img">
-            <div class="foot-header__section1">
-                <h2>Find answer to all questions about trip advisor</h2>
-                <p>Visit the help center today,</p>
-            </div>
-            <div class="foot-header__section2">
-                <submit type="button"><b>Get Started</b></submit>
-            </div>
-        </div>
-        <!-- Footer -->
-        <div class="footer">
-            <div class="footer-box">
-                <img src="./images/favicon.png" alt="">
-                <p>&copy;2024 Tripadvisor LLC All rights reserved.</p>
-            </div>
-            <div class="footer-down">
-                <h4>Terms of Use Privacy and Cookies Statement Cookie consent
-                    Site Map How the site works Contact us</h4>
-            </div>
-            <div class="footer-last">
-                <p>This is the version of our website addressed to speakers of English in India. If you are a resident
-                    of another country or region,</p>
-                    <p> please select the appropriate version of Tripadvisor for your country
-                    or region in the drop-down menu. more</p>
-            </div>
-            <div class="footer-option">
-                <div class="footer-option1">
-                    <select id="currency">
-                        <option value="$ USD">$ U.S. Dollors</option>
-                        <option value="£ GBP">£  British Pounds</option>
-                        <option value="₹ INR">₹ Indian Rupees</option>
-                        <option value="€ EUR">€ Euros</option>
-                        <option value="A$ AUD">$ Australian Dollors</option>
-                    </select>
-                </div>
-                <div class="footer-option2">
-                    <select id="currency">
-                        <option value="United State">United State</option>
-                        <option value="Canada(English)">Canada(English)</option>
-                        <option value="India">India</option>
-                        <option value="Brasil">Brasil</option>
-                        <option value="México">México</option>
-                    </select>
-                </div>
-            </div>
-        </div>
+        </footer>
+    </div>
 </body>
 
 </html>
